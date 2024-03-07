@@ -1,4 +1,4 @@
-package jpabook.service;
+package jpabook.jpashop.service;
 
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.repository.MemberRepository;
@@ -15,7 +15,6 @@ import java.util.List;
 public class MemberService {
 
     private final MemberRepository memberRepository;
-
 
     //회원 가입
     @Transactional //변경

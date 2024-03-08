@@ -28,4 +28,9 @@ public abstract class Item {
     @ManyToMany(mappedBy = "items")
     private List<Category> categories = new ArrayList<>();
 
+    public void addStock(int count) {
+    }
+
+    public void removeStock(int count) {
+    }
 }

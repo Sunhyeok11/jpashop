@@ -16,7 +16,7 @@ import java.util.List;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Order {
 
-    @Id
+    @Id @GeneratedValue
     @Column(name = "id")
     private Long id;
 
